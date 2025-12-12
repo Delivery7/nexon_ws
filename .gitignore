@@ -1,0 +1,69 @@
+# ==============================
+# ROS 2 / Colcon Ignore Rules
+# ==============================
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+tmp/
+.colcon/
+.colcon_install_cache/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode & IDE metadata
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Binary/object files
+*.o
+*.so
+*.exe
+*.dll
+*.out
+
+# General caches & temp files
+*.cache
+*.db
+*.log
+
+# ==============================
+# MAP FILES (ONLY IGNORE MAPS)
+# ==============================
+# Maps stored usually in map folders ONLY
+maps/*.pgm
+maps/*.yaml
+
+# Files from SLAM/Cartographer/Gmapping
+*.posegraph
+*.data
+*.graph
+
+# ==============================
+# CREDENTIALS & SECRETS
+# ==============================
+# Ignore Firebase and other sensitive JSON files
+*firebase*
+*credential*
+*secret*
+
+# Ignore JSON ONLY IF inside 'credentials' or 'keys' folder
+credentials/*.json
+keys/*.json
+
+# DO NOT ignore all json globally to avoid breaking configs
+# (Important for config files)
+
+# ==============================
+# Custom Exclusions (add as needed)
+# ==============================
+# node_modules/          # uncomment if using JS tools
+# dist/                  # uncomment for build outputs
