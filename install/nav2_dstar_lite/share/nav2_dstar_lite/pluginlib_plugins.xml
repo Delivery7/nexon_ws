@@ -1,0 +1,6 @@
+<library path="libdstar_lite_planner.so">
+  <class
+    name="DStarLite"
+    type="nav2_dstar_lite::DStarLitePlanner"
+    base_class_type="nav2_core::GlobalPlanner"/>
+</library>

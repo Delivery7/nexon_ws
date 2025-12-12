@@ -23,7 +23,7 @@ gnome-terminal --tab -- bash -c "source install/setup.bash;
 #                                 read -n 1"
 
 gnome-terminal --tab -- bash -c "source install/setup.bash;
-                                ros2 launch nexon_navigation navigation.launch.py rviz:=true map:=/home/bobby/nexon_ws/brail_map.yaml;
+                                ros2 launch nexon_navigation navigation.launch.py rviz:=true map:=/home/bobby/nexon_ws/testing_GU2_map.yaml;
                                 echo Press any key to close;
                                 read -n 1"
 

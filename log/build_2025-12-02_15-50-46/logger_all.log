@@ -1,0 +1,1048 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c4a059399f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c4a05939420>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c4a05939420>>, mixin_verb=('build',))
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bobby/nexon_ws'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_bt_pkg) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gamepad_bt_pkg' with type 'ros.ament_python' and name 'gamepad_bt_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_pkg) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gamepad_pkg' with type 'ros.ament_python' and name 'gamepad_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_kalman_pkg) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_kalman_pkg' with type 'ros.ament_python' and name 'imu_kalman_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_dstar_lite) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_dstar_lite' with type 'ros.catkin' and name 'nav2_dstar_lite'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/data_visual) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/data_visual' with type 'ros.ament_python' and name 'data_visual'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docker) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/docs) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/lock_system) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/lock_system' with type 'ros.ament_python' and name 'lock_system'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/nexon' with type 'ros.ament_cmake' and name 'nexon'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_base) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/nexon_base' with type 'ros.ament_cmake' and name 'nexon_base'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_bringup) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/nexon_bringup' with type 'ros.ament_cmake' and name 'nexon_bringup'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_description) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/nexon_description' with type 'ros.ament_cmake' and name 'nexon_description'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_gazebo) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_gazebo) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexon/nexon_navigation) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexon/nexon_navigation' with type 'ros.ament_cmake' and name 'nexon_navigation'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/bobby/nexon_ws/install
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/humble
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'data_visual' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'data_visual' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/data_visual', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/data_visual', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/data_visual', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_bt_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad_bt_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/gamepad_bt_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/gamepad_bt_pkg', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/gamepad_bt_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'gamepad_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/gamepad_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/gamepad_pkg', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/gamepad_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'imu_kalman_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'imu_kalman_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/imu_kalman_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/imu_kalman_pkg', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/imu_kalman_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'lock_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'lock_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/lock_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/lock_system', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/lock_system', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nav2_dstar_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_dstar_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/nav2_dstar_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/nav2_dstar_lite', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nav2_dstar_lite', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'nexon' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/nexon', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/nexon', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/nexon', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'nexon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/nexon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/nexon_base', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/nexon_base', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'nexon_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/nexon_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/nexon_description', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/nexon_description', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'nexon_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/nexon_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/nexon_navigation', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/nexon_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/bobby/nexon_ws/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nexon_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'nexon_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bobby/nexon_ws/build/nexon_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bobby/nexon_ws/install/nexon_bringup', 'merge_install': False, 'path': '/home/bobby/nexon_ws/src/nexon/nexon_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[0.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/data_visual' with build type 'ament_python'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_visual', 'ament_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/data_visual/share/data_visual/hook/ament_prefix_path.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/data_visual/share/data_visual/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/data_visual/share/data_visual/hook/ament_prefix_path.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bobby/nexon_ws/src/gamepad_bt_pkg' with build type 'ament_python'
+[0.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_bt_pkg', 'ament_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/ament_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/ament_prefix_path.sh'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bobby/nexon_ws/src/gamepad_pkg' with build type 'ament_python'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_pkg', 'ament_prefix_path')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/hook/ament_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/hook/ament_prefix_path.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/hook/ament_prefix_path.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/micro_ros_agent -- -j4 -l4
+[0.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bobby/nexon_ws/src/nexon/data_visual'
+[0.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bobby/nexon_ws/src/gamepad_bt_pkg'
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bobby/nexon_ws/src/gamepad_pkg'
+[0.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.968s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/micro_ros_agent -- -j4 -l4
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/micro_ros_agent
+[1.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[1.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/micro_ros_agent
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent' for CMake module files
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/lib'
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/bin'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/bin'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent' for CMake module files
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent' for CMake config files
+[1.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/lib'
+[1.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/bin'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_agent/bin'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.047s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bobby/nexon_ws/src/imu_kalman_pkg' with build type 'ament_python'
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_kalman_pkg', 'ament_prefix_path')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/hook/ament_prefix_path.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/hook/ament_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/hook/ament_prefix_path.sh'
+[1.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.444s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bobby/nexon_ws/src/imu_kalman_pkg'
+[1.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/data_visual': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build --no-deps symlink_data
+[1.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/gamepad_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_pkg/build --no-deps symlink_data
+[1.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/gamepad_bt_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_bt_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_bt_pkg/build --no-deps symlink_data
+[2.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/imu_kalman_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/imu_kalman_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/imu_kalman_pkg/build --no-deps symlink_data
+[2.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_visual', 'pythonpath_develop')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/data_visual/share/data_visual/hook/pythonpath_develop.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/build/data_visual/share/data_visual/hook/pythonpath_develop.dsv'
+[2.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/data_visual' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build --no-deps symlink_data
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/data_visual/share/data_visual/hook/pythonpath_develop.sh'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual' for CMake module files
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual' for CMake config files
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual/lib'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual/bin'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual/lib/pkgconfig/data_visual.pc'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages'
+[2.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_visual', 'pythonpath')
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/data_visual/share/data_visual/hook/pythonpath.ps1'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/data_visual/share/data_visual/hook/pythonpath.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/data_visual/share/data_visual/hook/pythonpath.sh'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/data_visual/bin'
+[2.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_visual)
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/data_visual/share/data_visual/package.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/data_visual/share/data_visual/package.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/data_visual/share/data_visual/package.sh'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/data_visual/share/data_visual/package.bash'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/data_visual/share/data_visual/package.zsh'
+[2.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/data_visual/share/colcon-core/packages/data_visual)
+[2.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/lock_system' with build type 'ament_python'
+[2.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('lock_system', 'ament_prefix_path')
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/lock_system/share/lock_system/hook/ament_prefix_path.ps1'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/lock_system/share/lock_system/hook/ament_prefix_path.dsv'
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/lock_system/share/lock_system/hook/ament_prefix_path.sh'
+[2.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.572s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bobby/nexon_ws/src/nexon/lock_system'
+[2.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_pkg', 'pythonpath_develop')
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/gamepad_pkg/share/gamepad_pkg/hook/pythonpath_develop.ps1'
+[2.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/gamepad_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_pkg/build --no-deps symlink_data
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/build/gamepad_pkg/share/gamepad_pkg/hook/pythonpath_develop.dsv'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/gamepad_pkg/share/gamepad_pkg/hook/pythonpath_develop.sh'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg' for CMake module files
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg' for CMake config files
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg/lib'
+[2.579s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg/bin'
+[2.579s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg/lib/pkgconfig/gamepad_pkg.pc'
+[2.579s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages'
+[2.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_pkg', 'pythonpath')
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/hook/pythonpath.ps1'
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/hook/pythonpath.dsv'
+[2.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/hook/pythonpath.sh'
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_pkg/bin'
+[2.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad_pkg)
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/package.ps1'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/package.dsv'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/package.sh'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/package.bash'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg/package.zsh'
+[2.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/gamepad_pkg/share/colcon-core/packages/gamepad_pkg)
+[2.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_bt_pkg', 'pythonpath_develop')
+[2.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/pythonpath_develop.ps1'
+[2.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/build/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/pythonpath_develop.dsv'
+[2.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/gamepad_bt_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_bt_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_bt_pkg/build --no-deps symlink_data
+[2.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/pythonpath_develop.sh'
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg' for CMake module files
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg' for CMake config files
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg/bin'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/pkgconfig/gamepad_bt_pkg.pc'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages'
+[2.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_bt_pkg', 'pythonpath')
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/pythonpath.ps1'
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/pythonpath.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/hook/pythonpath.sh'
+[2.586s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/gamepad_bt_pkg/bin'
+[2.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad_bt_pkg)
+[2.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/package.ps1'
+[2.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/package.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/package.sh'
+[2.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/package.bash'
+[2.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg/package.zsh'
+[2.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/gamepad_bt_pkg/share/colcon-core/packages/gamepad_bt_pkg)
+[2.588s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[2.588s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/micro_ros_setup'
+[2.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.593s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/bobby/nexon_ws/src/nav2_dstar_lite' with build type 'catkin'
+[2.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/nav2_dstar_lite'
+[2.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/micro_ros_setup -- -j4 -l4
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nav2_dstar_lite': /usr/bin/cmake --build /home/bobby/nexon_ws/build/nav2_dstar_lite -- -j4 -l4
+[2.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/micro_ros_setup -- -j4 -l4
+[2.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/micro_ros_setup
+[2.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup' for CMake module files
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup' for CMake config files
+[2.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/lib'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/bin'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/bin'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/micro_ros_setup
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup' for CMake module files
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup' for CMake config files
+[2.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/lib'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/bin'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/micro_ros_setup/bin'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/nexon' with build type 'ament_cmake'
+[2.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/nexon/nexon'
+[2.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon -- -j4 -l4
+[2.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nav2_dstar_lite' returned '0': /usr/bin/cmake --build /home/bobby/nexon_ws/build/nav2_dstar_lite -- -j4 -l4
+[2.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nav2_dstar_lite': /usr/bin/cmake --install /home/bobby/nexon_ws/build/nav2_dstar_lite
+[2.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_dstar_lite', 'ros_package_path')
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/ros_package_path.ps1'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/ros_package_path.dsv'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/ros_package_path.sh'
+[2.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nav2_dstar_lite' returned '0': /usr/bin/cmake --install /home/bobby/nexon_ws/build/nav2_dstar_lite
+[2.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_dstar_lite', 'pkg_config_path')
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/pkg_config_path.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/pkg_config_path.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/pkg_config_path.sh'
+[2.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_dstar_lite', 'pkg_config_path_multiarch')
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/pkg_config_path_multiarch.ps1'
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/pkg_config_path_multiarch.dsv'
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/pkg_config_path_multiarch.sh'
+[2.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_dstar_lite)
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite' for CMake module files
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite' for CMake config files
+[2.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_dstar_lite', 'cmake_prefix_path')
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/cmake_prefix_path.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/cmake_prefix_path.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/cmake_prefix_path.sh'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite/lib'
+[2.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_dstar_lite', 'ld_library_path_lib')
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/ld_library_path_lib.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/ld_library_path_lib.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/hook/ld_library_path_lib.sh'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite/bin'
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite/lib/pkgconfig/nav2_dstar_lite.pc'
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite/lib/python3.10/site-packages'
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nav2_dstar_lite/bin'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.ps1'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.dsv'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.sh'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.bash'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.zsh'
+[2.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nav2_dstar_lite/share/colcon-core/packages/nav2_dstar_lite)
+[2.775s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/nexon_base' with build type 'ament_cmake'
+[2.775s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/nexon/nexon_base'
+[2.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_base': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_base -- -j4 -l4
+[2.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon -- -j4 -l4
+[2.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon
+[2.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon)
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon' for CMake module files
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon' for CMake config files
+[2.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon', 'cmake_prefix_path')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon/share/nexon/hook/cmake_prefix_path.ps1'
+[2.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon
+[2.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon/share/nexon/hook/cmake_prefix_path.dsv'
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon/share/nexon/hook/cmake_prefix_path.sh'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/bin'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/lib/pkgconfig/nexon.pc'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/lib/python3.10/site-packages'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/bin'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.ps1'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon/share/nexon/package.dsv'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.sh'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.bash'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.zsh'
+[2.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon/share/colcon-core/packages/nexon)
+[2.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon)
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon' for CMake module files
+[2.830s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon' for CMake config files
+[2.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon', 'cmake_prefix_path')
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon/share/nexon/hook/cmake_prefix_path.ps1'
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon/share/nexon/hook/cmake_prefix_path.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon/share/nexon/hook/cmake_prefix_path.sh'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/bin'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/lib/pkgconfig/nexon.pc'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/lib/python3.10/site-packages'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon/bin'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon/share/nexon/package.dsv'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.sh'
+[2.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.bash'
+[2.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon/share/nexon/package.zsh'
+[2.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon/share/colcon-core/packages/nexon)
+[2.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/nexon_description' with build type 'ament_cmake'
+[2.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/nexon/nexon_description'
+[2.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_kalman_pkg', 'pythonpath_develop')
+[2.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/imu_kalman_pkg/share/imu_kalman_pkg/hook/pythonpath_develop.ps1'
+[2.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/imu_kalman_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/imu_kalman_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/imu_kalman_pkg/build --no-deps symlink_data
+[2.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/build/imu_kalman_pkg/share/imu_kalman_pkg/hook/pythonpath_develop.dsv'
+[2.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/imu_kalman_pkg/share/imu_kalman_pkg/hook/pythonpath_develop.sh'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg' for CMake module files
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg' for CMake config files
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg/lib'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg/bin'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/pkgconfig/imu_kalman_pkg.pc'
+[2.848s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages'
+[2.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_kalman_pkg', 'pythonpath')
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/hook/pythonpath.ps1'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/hook/pythonpath.dsv'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/hook/pythonpath.sh'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/imu_kalman_pkg/bin'
+[2.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_kalman_pkg)
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/package.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/package.dsv'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/package.sh'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/package.bash'
+[2.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/imu_kalman_pkg/share/imu_kalman_pkg/package.zsh'
+[2.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/imu_kalman_pkg/share/colcon-core/packages/imu_kalman_pkg)
+[2.852s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/nexon_navigation' with build type 'ament_cmake'
+[2.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/nexon/nexon_navigation'
+[2.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_description -- -j4 -l4
+[2.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_base' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_base -- -j4 -l4
+[2.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_base': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_base
+[2.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_navigation': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_navigation -- -j4 -l4
+[2.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_base)
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base' for CMake module files
+[2.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_base' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_base
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base' for CMake config files
+[2.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_base', 'cmake_prefix_path')
+[2.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/hook/cmake_prefix_path.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/hook/cmake_prefix_path.dsv'
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/hook/cmake_prefix_path.sh'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/bin'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/lib/pkgconfig/nexon_base.pc'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/lib/python3.10/site-packages'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/bin'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.ps1'
+[2.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.dsv'
+[2.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.sh'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.bash'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.zsh'
+[2.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_base/share/colcon-core/packages/nexon_base)
+[2.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_base)
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base' for CMake module files
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base' for CMake config files
+[2.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_base', 'cmake_prefix_path')
+[2.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/hook/cmake_prefix_path.ps1'
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/hook/cmake_prefix_path.dsv'
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/hook/cmake_prefix_path.sh'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/bin'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/lib/pkgconfig/nexon_base.pc'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/lib/python3.10/site-packages'
+[2.895s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_base/bin'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.ps1'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.dsv'
+[2.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.sh'
+[2.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.bash'
+[2.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.zsh'
+[2.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_base/share/colcon-core/packages/nexon_base)
+[2.900s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/sllidar_ros2' with build type 'ament_cmake'
+[2.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/sllidar_ros2'
+[2.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_description -- -j4 -l4
+[2.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_description
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/sllidar_ros2 -- -j4 -l4
+[2.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_navigation' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_navigation -- -j4 -l4
+[2.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_navigation': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_navigation
+[2.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_description)
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description' for CMake module files
+[2.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_description
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description' for CMake config files
+[2.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_description', 'cmake_prefix_path')
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/hook/cmake_prefix_path.ps1'
+[2.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/hook/cmake_prefix_path.dsv'
+[2.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/hook/cmake_prefix_path.sh'
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/bin'
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/lib/pkgconfig/nexon_description.pc'
+[2.950s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/lib/python3.10/site-packages'
+[2.950s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/bin'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.ps1'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.dsv'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.sh'
+[2.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.bash'
+[2.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.zsh'
+[2.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_description/share/colcon-core/packages/nexon_description)
+[2.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_description)
+[2.954s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description' for CMake module files
+[2.955s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description' for CMake config files
+[2.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_description', 'cmake_prefix_path')
+[2.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/hook/cmake_prefix_path.ps1'
+[2.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/hook/cmake_prefix_path.dsv'
+[2.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/hook/cmake_prefix_path.sh'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/bin'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/lib/pkgconfig/nexon_description.pc'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/lib/python3.10/site-packages'
+[2.961s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_description/bin'
+[2.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.ps1'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.dsv'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.sh'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.bash'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.zsh'
+[2.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_description/share/colcon-core/packages/nexon_description)
+[2.964s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bobby/nexon_ws/src/nexon/nexon_bringup' with build type 'ament_cmake'
+[2.964s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bobby/nexon_ws/src/nexon/nexon_bringup'
+[2.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_navigation)
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation' for CMake module files
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation' for CMake config files
+[2.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_navigation', 'cmake_prefix_path')
+[2.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/hook/cmake_prefix_path.ps1'
+[2.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_navigation' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_navigation
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/hook/cmake_prefix_path.dsv'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/hook/cmake_prefix_path.sh'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/bin'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/lib/pkgconfig/nexon_navigation.pc'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/lib/python3.10/site-packages'
+[2.977s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/bin'
+[2.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.ps1'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.dsv'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.sh'
+[2.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.bash'
+[2.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.zsh'
+[2.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_navigation/share/colcon-core/packages/nexon_navigation)
+[2.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_navigation)
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation' for CMake module files
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation' for CMake config files
+[2.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_navigation', 'cmake_prefix_path')
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/hook/cmake_prefix_path.ps1'
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/hook/cmake_prefix_path.dsv'
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/hook/cmake_prefix_path.sh'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/bin'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/lib/pkgconfig/nexon_navigation.pc'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/lib/python3.10/site-packages'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_navigation/bin'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.ps1'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.dsv'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.sh'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.bash'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_navigation/share/nexon_navigation/package.zsh'
+[2.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_navigation/share/colcon-core/packages/nexon_navigation)
+[2.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_bringup': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/micro_ros_agent:/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/bobby/nexon_ws/install/micro_ros_agent/lib:/home/bobby/nexon_ws/install/nav2_dstar_lite/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_bringup -- -j4 -l4
+[3.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --build /home/bobby/nexon_ws/build/sllidar_ros2 -- -j4 -l4
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/sllidar_ros2
+[3.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_bringup' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/micro_ros_agent:/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/bobby/nexon_ws/install/micro_ros_agent/lib:/home/bobby/nexon_ws/install/nav2_dstar_lite/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_bringup -- -j4 -l4
+[3.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/nexon_bringup': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/micro_ros_agent:/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/bobby/nexon_ws/install/micro_ros_agent/lib:/home/bobby/nexon_ws/install/nav2_dstar_lite/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_bringup
+[3.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2' for CMake module files
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2' for CMake config files
+[3.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup:/home/bobby/nexon_ws/install/micro_ros_agent /usr/bin/cmake --install /home/bobby/nexon_ws/build/sllidar_ros2
+[3.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/lib'
+[3.044s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/bin'
+[3.044s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.044s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/bin'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.050s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2' for CMake module files
+[3.050s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2' for CMake config files
+[3.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/lib'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/bin'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/sllidar_ros2/bin'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_bringup)
+[3.059s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup' for CMake module files
+[3.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/nexon_bringup' returned '0': CMAKE_PREFIX_PATH=/home/bobby/nexon_ws/install/micro_ros_agent:/home/bobby/nexon_ws/install/sllidar_ros2:/home/bobby/nexon_ws/install/nexon_navigation:/home/bobby/nexon_ws/install/nexon_description:/home/bobby/nexon_ws/install/nexon_bringup:/home/bobby/nexon_ws/install/nexon_base:/home/bobby/nexon_ws/install/nexon:/home/bobby/nexon_ws/install/lock_system:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble:/home/bobby/nexon_ws/install/nav2_dstar_lite:/home/bobby/nexon_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/bobby/nexon_ws/install/micro_ros_agent/lib:/home/bobby/nexon_ws/install/nav2_dstar_lite/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_bringup
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup' for CMake config files
+[3.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_bringup', 'cmake_prefix_path')
+[3.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/hook/cmake_prefix_path.ps1'
+[3.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/hook/cmake_prefix_path.dsv'
+[3.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/hook/cmake_prefix_path.sh'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/bin'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/lib/pkgconfig/nexon_bringup.pc'
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/lib/python3.10/site-packages'
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/bin'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.dsv'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.sh'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.bash'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.zsh'
+[3.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_bringup/share/colcon-core/packages/nexon_bringup)
+[3.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexon_bringup)
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup' for CMake module files
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup' for CMake config files
+[3.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexon_bringup', 'cmake_prefix_path')
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/hook/cmake_prefix_path.ps1'
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/hook/cmake_prefix_path.dsv'
+[3.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/hook/cmake_prefix_path.sh'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/bin'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/lib/pkgconfig/nexon_bringup.pc'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/lib/python3.10/site-packages'
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/nexon_bringup/bin'
+[3.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.sh'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.bash'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/nexon_bringup/share/nexon_bringup/package.zsh'
+[3.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/nexon_bringup/share/colcon-core/packages/nexon_bringup)
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bobby/nexon_ws/build/lock_system': PYTHONPATH=/home/bobby/nexon_ws/build/lock_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/lock_system/build --no-deps symlink_data
+[3.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('lock_system', 'pythonpath_develop')
+[3.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/lock_system/share/lock_system/hook/pythonpath_develop.ps1'
+[3.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bobby/nexon_ws/build/lock_system' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/lock_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/lock_system/build --no-deps symlink_data
+[3.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/build/lock_system/share/lock_system/hook/pythonpath_develop.dsv'
+[3.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/build/lock_system/share/lock_system/hook/pythonpath_develop.sh'
+[3.543s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system' for CMake module files
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system' for CMake config files
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system/lib'
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system/bin'
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system/lib/pkgconfig/lock_system.pc'
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages'
+[3.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('lock_system', 'pythonpath')
+[3.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/lock_system/share/lock_system/hook/pythonpath.ps1'
+[3.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bobby/nexon_ws/install/lock_system/share/lock_system/hook/pythonpath.dsv'
+[3.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bobby/nexon_ws/install/lock_system/share/lock_system/hook/pythonpath.sh'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/bobby/nexon_ws/install/lock_system/bin'
+[3.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lock_system)
+[3.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/lock_system/share/lock_system/package.ps1'
+[3.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bobby/nexon_ws/install/lock_system/share/lock_system/package.dsv'
+[3.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/lock_system/share/lock_system/package.sh'
+[3.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/lock_system/share/lock_system/package.bash'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/bobby/nexon_ws/install/lock_system/share/lock_system/package.zsh'
+[3.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bobby/nexon_ws/install/lock_system/share/colcon-core/packages/lock_system)
+[3.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.547s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.551s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.551s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.551s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.560s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bobby/nexon_ws/install/local_setup.ps1'
+[3.561s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bobby/nexon_ws/install/_local_setup_util_ps1.py'
+[3.562s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bobby/nexon_ws/install/setup.ps1'
+[3.563s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bobby/nexon_ws/install/local_setup.sh'
+[3.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bobby/nexon_ws/install/_local_setup_util_sh.py'
+[3.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bobby/nexon_ws/install/setup.sh'
+[3.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bobby/nexon_ws/install/local_setup.bash'
+[3.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bobby/nexon_ws/install/setup.bash'
+[3.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bobby/nexon_ws/install/local_setup.zsh'
+[3.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bobby/nexon_ws/install/setup.zsh'

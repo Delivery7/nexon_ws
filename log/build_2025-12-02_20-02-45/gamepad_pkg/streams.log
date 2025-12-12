@@ -1,0 +1,36 @@
+[1.397s] Invoking command in '/home/bobby/nexon_ws/build/gamepad_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bobby/nexon_ws/build/gamepad_pkg/build
+[1.742s] running develop
+[2.001s] Removing /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad-pkg.egg-link (link to .)
+[2.051s] Invoked command in '/home/bobby/nexon_ws/build/gamepad_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bobby/nexon_ws/build/gamepad_pkg/build
+[2.052s] Invoking command in '/home/bobby/nexon_ws/src/gamepad_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_pkg build --build-base /home/bobby/nexon_ws/build/gamepad_pkg/build install --record /home/bobby/nexon_ws/build/gamepad_pkg/install.log --single-version-externally-managed install_data --force
+[2.416s] running egg_info
+[2.422s] writing ../../build/gamepad_pkg/gamepad_pkg.egg-info/PKG-INFO
+[2.422s] writing dependency_links to ../../build/gamepad_pkg/gamepad_pkg.egg-info/dependency_links.txt
+[2.422s] writing entry points to ../../build/gamepad_pkg/gamepad_pkg.egg-info/entry_points.txt
+[2.422s] writing requirements to ../../build/gamepad_pkg/gamepad_pkg.egg-info/requires.txt
+[2.422s] writing top-level names to ../../build/gamepad_pkg/gamepad_pkg.egg-info/top_level.txt
+[2.422s] reading manifest file '../../build/gamepad_pkg/gamepad_pkg.egg-info/SOURCES.txt'
+[2.422s] adding license file 'LICENSE'
+[2.422s] writing manifest file '../../build/gamepad_pkg/gamepad_pkg.egg-info/SOURCES.txt'
+[2.423s] running build
+[2.423s] running build_py
+[2.423s] running install
+[2.426s] running install_lib
+[2.426s] creating /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg
+[2.426s] copying /home/bobby/nexon_ws/build/gamepad_pkg/build/lib/gamepad_pkg/gamepad_yudhis.py -> /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg
+[2.426s] copying /home/bobby/nexon_ws/build/gamepad_pkg/build/lib/gamepad_pkg/gamepad_testing.py -> /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg
+[2.426s] copying /home/bobby/nexon_ws/build/gamepad_pkg/build/lib/gamepad_pkg/__init__.py -> /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg
+[2.426s] copying /home/bobby/nexon_ws/build/gamepad_pkg/build/lib/gamepad_pkg/gamepad_node.py -> /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg
+[2.426s] byte-compiling /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg/gamepad_yudhis.py to gamepad_yudhis.cpython-310.pyc
+[2.427s] byte-compiling /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg/gamepad_testing.py to gamepad_testing.cpython-310.pyc
+[2.427s] byte-compiling /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg/__init__.py to __init__.cpython-310.pyc
+[2.427s] byte-compiling /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg/gamepad_node.py to gamepad_node.cpython-310.pyc
+[2.428s] running install_data
+[2.428s] copying resource/gamepad_pkg -> /home/bobby/nexon_ws/install/gamepad_pkg/share/ament_index/resource_index/packages
+[2.428s] copying package.xml -> /home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg
+[2.428s] running install_egg_info
+[2.433s] Copying ../../build/gamepad_pkg/gamepad_pkg.egg-info to /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad_pkg-0.0.0-py3.10.egg-info
+[2.435s] running install_scripts
+[2.469s] Installing gamepad_testing script to /home/bobby/nexon_ws/install/gamepad_pkg/lib/gamepad_pkg
+[2.470s] writing list of installed files to '/home/bobby/nexon_ws/build/gamepad_pkg/install.log'
+[2.532s] Invoked command in '/home/bobby/nexon_ws/src/gamepad_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_pkg build --build-base /home/bobby/nexon_ws/build/gamepad_pkg/build install --record /home/bobby/nexon_ws/build/gamepad_pkg/install.log --single-version-externally-managed install_data --force

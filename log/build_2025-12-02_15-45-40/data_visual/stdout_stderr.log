@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing data_visual.egg-info/PKG-INFO
+writing dependency_links to data_visual.egg-info/dependency_links.txt
+writing entry points to data_visual.egg-info/entry_points.txt
+writing requirements to data_visual.egg-info/requires.txt
+writing top-level names to data_visual.egg-info/top_level.txt
+reading manifest file 'data_visual.egg-info/SOURCES.txt'
+writing manifest file 'data_visual.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data-visual.egg-link (link to .)
+Installing data_visual_node script to /home/bobby/nexon_ws/install/data_visual/lib/data_visual
+
+Installed /home/bobby/nexon_ws/build/data_visual
+running symlink_data
+symbolically linking /home/bobby/nexon_ws/build/data_visual/resource/data_visual -> /home/bobby/nexon_ws/install/data_visual/share/ament_index/resource_index/packages
+symbolically linking /home/bobby/nexon_ws/build/data_visual/package.xml -> /home/bobby/nexon_ws/install/data_visual/share/data_visual

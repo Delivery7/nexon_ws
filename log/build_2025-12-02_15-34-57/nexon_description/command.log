@@ -1,0 +1,6 @@
+Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bobby/nexon_ws/src/nexon/nexon_description -DCMAKE_INSTALL_PREFIX=/home/bobby/nexon_ws/install/nexon_description
+Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bobby/nexon_ws/src/nexon/nexon_description -DCMAKE_INSTALL_PREFIX=/home/bobby/nexon_ws/install/nexon_description
+Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_description -- -j4 -l4
+Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_description -- -j4 -l4
+Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_description
+Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_description

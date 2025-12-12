@@ -1,0 +1,3 @@
+[console_scripts]
+gamepad_testing = gamepad_pkg.gamepad_testing:main
+

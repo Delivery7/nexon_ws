@@ -1,0 +1,36 @@
+[1.435s] Invoking command in '/home/bobby/nexon_ws/build/lock_system': PYTHONPATH=/home/bobby/nexon_ws/build/lock_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bobby/nexon_ws/build/lock_system/build
+[1.820s] running develop
+[2.655s] Removing /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock-system.egg-link (link to .)
+[2.756s] Invoked command in '/home/bobby/nexon_ws/build/lock_system' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/lock_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bobby/nexon_ws/build/lock_system/build
+[2.756s] Invoking command in '/home/bobby/nexon_ws/src/nexon/lock_system': PYTHONPATH=/home/bobby/nexon_ws/build/lock_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lock_system build --build-base /home/bobby/nexon_ws/build/lock_system/build install --record /home/bobby/nexon_ws/build/lock_system/install.log --single-version-externally-managed install_data --force
+[3.238s] running egg_info
+[3.240s] writing ../../../build/lock_system/lock_system.egg-info/PKG-INFO
+[3.240s] writing dependency_links to ../../../build/lock_system/lock_system.egg-info/dependency_links.txt
+[3.241s] writing entry points to ../../../build/lock_system/lock_system.egg-info/entry_points.txt
+[3.241s] writing requirements to ../../../build/lock_system/lock_system.egg-info/requires.txt
+[3.241s] writing top-level names to ../../../build/lock_system/lock_system.egg-info/top_level.txt
+[3.244s] reading manifest file '../../../build/lock_system/lock_system.egg-info/SOURCES.txt'
+[3.247s] writing manifest file '../../../build/lock_system/lock_system.egg-info/SOURCES.txt'
+[3.248s] running build
+[3.248s] running build_py
+[3.248s] creating /home/bobby/nexon_ws/build/lock_system/build
+[3.248s] creating /home/bobby/nexon_ws/build/lock_system/build/lib
+[3.248s] creating /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system
+[3.249s] copying lock_system/lock_system_master.py -> /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system
+[3.254s] copying lock_system/__init__.py -> /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system
+[3.254s] running install
+[3.255s] running install_lib
+[3.255s] creating /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system
+[3.255s] copying /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system/lock_system_master.py -> /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system
+[3.255s] copying /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system/__init__.py -> /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system
+[3.256s] byte-compiling /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system/lock_system_master.py to lock_system_master.cpython-310.pyc
+[3.267s] byte-compiling /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system/__init__.py to __init__.cpython-310.pyc
+[3.268s] running install_data
+[3.268s] copying resource/lock_system -> /home/bobby/nexon_ws/install/lock_system/share/ament_index/resource_index/packages
+[3.269s] copying package.xml -> /home/bobby/nexon_ws/install/lock_system/share/lock_system
+[3.269s] running install_egg_info
+[3.275s] Copying ../../../build/lock_system/lock_system.egg-info to /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system-0.0.0-py3.10.egg-info
+[3.280s] running install_scripts
+[3.334s] Installing lock_system_master script to /home/bobby/nexon_ws/install/lock_system/lib/lock_system
+[3.334s] writing list of installed files to '/home/bobby/nexon_ws/build/lock_system/install.log'
+[3.422s] Invoked command in '/home/bobby/nexon_ws/src/nexon/lock_system' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/lock_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lock_system build --build-base /home/bobby/nexon_ws/build/lock_system/build install --record /home/bobby/nexon_ws/build/lock_system/install.log --single-version-externally-managed install_data --force

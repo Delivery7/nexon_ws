@@ -1,0 +1,3 @@
+[console_scripts]
+lock_system_master = lock_system.lock_system_master:main
+

@@ -1,0 +1,1 @@
+/home/bobby/nexon_ws/sllidar_ros2/launch/view_sllidar_a2m7_launch.py

@@ -1,0 +1,21 @@
+[0.978s] Invoking command in '/home/bobby/nexon_ws/src/imu_kalman_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/imu_kalman_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_kalman_pkg build --build-base /home/bobby/nexon_ws/build/imu_kalman_pkg/build install --record /home/bobby/nexon_ws/build/imu_kalman_pkg/install.log --single-version-externally-managed install_data
+[1.285s] running egg_info
+[1.286s] writing ../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/PKG-INFO
+[1.287s] writing dependency_links to ../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/dependency_links.txt
+[1.287s] writing entry points to ../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/entry_points.txt
+[1.287s] writing requirements to ../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/requires.txt
+[1.287s] writing top-level names to ../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/top_level.txt
+[1.289s] reading manifest file '../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/SOURCES.txt'
+[1.290s] writing manifest file '../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info/SOURCES.txt'
+[1.290s] running build
+[1.290s] running build_py
+[1.291s] running install
+[1.291s] running install_lib
+[1.293s] running install_data
+[1.293s] running install_egg_info
+[1.294s] removing '/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages/imu_kalman_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.295s] Copying ../../build/imu_kalman_pkg/imu_kalman_pkg.egg-info to /home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages/imu_kalman_pkg-0.0.0-py3.10.egg-info
+[1.295s] running install_scripts
+[1.312s] Installing imu_kalman_filter script to /home/bobby/nexon_ws/install/imu_kalman_pkg/lib/imu_kalman_pkg
+[1.313s] writing list of installed files to '/home/bobby/nexon_ws/build/imu_kalman_pkg/install.log'
+[1.447s] Invoked command in '/home/bobby/nexon_ws/src/imu_kalman_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/imu_kalman_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/imu_kalman_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_kalman_pkg build --build-base /home/bobby/nexon_ws/build/imu_kalman_pkg/build install --record /home/bobby/nexon_ws/build/imu_kalman_pkg/install.log --single-version-externally-managed install_data

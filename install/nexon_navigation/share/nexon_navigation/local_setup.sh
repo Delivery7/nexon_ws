@@ -1,0 +1,1 @@
+/home/bobby/nexon_ws/build/nexon_navigation/ament_cmake_environment_hooks/local_setup.sh

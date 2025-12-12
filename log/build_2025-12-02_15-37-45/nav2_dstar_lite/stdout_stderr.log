@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target dstar_lite_planner[0m
+[100%] Built target dstar_lite_planner
+-- Install configuration: ""
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/pluginlib_plugins.xml
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/lib/libdstar_lite_planner.so
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/include
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/include/nav2_dstar_lite
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/include/nav2_dstar_lite/dstar_lite_planner.hpp
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/ament_index/resource_index/package_run_dependencies/nav2_dstar_lite
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/ament_index/resource_index/parent_prefix_path/nav2_dstar_lite
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/environment/path.sh
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/environment/path.dsv
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/local_setup.bash
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/local_setup.sh
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/local_setup.zsh
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/local_setup.dsv
+-- Installing: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.dsv
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/ament_index/resource_index/packages/nav2_dstar_lite
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_dstar_lite
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/cmake/nav2_dstar_liteConfig.cmake
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/cmake/nav2_dstar_liteConfig-version.cmake
+-- Up-to-date: /home/bobby/nexon_ws/install/nav2_dstar_lite/share/nav2_dstar_lite/package.xml

@@ -1,0 +1,28 @@
+running develop
+Removing /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data-visual.egg-link (link to .)
+running egg_info
+writing ../../../build/data_visual/data_visual.egg-info/PKG-INFO
+writing dependency_links to ../../../build/data_visual/data_visual.egg-info/dependency_links.txt
+writing entry points to ../../../build/data_visual/data_visual.egg-info/entry_points.txt
+writing requirements to ../../../build/data_visual/data_visual.egg-info/requires.txt
+writing top-level names to ../../../build/data_visual/data_visual.egg-info/top_level.txt
+reading manifest file '../../../build/data_visual/data_visual.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/data_visual/data_visual.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual
+copying /home/bobby/nexon_ws/build/data_visual/build/lib/data_visual/data_visual_node.py -> /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual
+copying /home/bobby/nexon_ws/build/data_visual/build/lib/data_visual/__init__.py -> /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual
+byte-compiling /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual/data_visual_node.py to data_visual_node.cpython-310.pyc
+byte-compiling /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/data_visual -> /home/bobby/nexon_ws/install/data_visual/share/ament_index/resource_index/packages
+copying package.xml -> /home/bobby/nexon_ws/install/data_visual/share/data_visual
+running install_egg_info
+Copying ../../../build/data_visual/data_visual.egg-info to /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_visual_node script to /home/bobby/nexon_ws/install/data_visual/lib/data_visual
+writing list of installed files to '/home/bobby/nexon_ws/build/data_visual/install.log'

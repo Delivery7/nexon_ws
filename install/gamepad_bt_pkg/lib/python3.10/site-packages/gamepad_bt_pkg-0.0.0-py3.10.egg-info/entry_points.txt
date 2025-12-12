@@ -1,0 +1,3 @@
+[console_scripts]
+gamepad_bt = gamepad_bt_pkg.gamepad_bt:main
+

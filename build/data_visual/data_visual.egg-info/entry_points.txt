@@ -1,0 +1,3 @@
+[console_scripts]
+data_visual_node = data_visual.data_visual_node:main
+

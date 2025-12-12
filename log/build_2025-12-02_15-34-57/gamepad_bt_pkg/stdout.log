@@ -1,0 +1,33 @@
+running develop
+Removing /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad-bt-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/requires.txt
+writing top-level names to ../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/top_level.txt
+reading manifest file '../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bobby/nexon_ws/build/gamepad_bt_pkg/build
+creating /home/bobby/nexon_ws/build/gamepad_bt_pkg/build/lib
+creating /home/bobby/nexon_ws/build/gamepad_bt_pkg/build/lib/gamepad_bt_pkg
+copying gamepad_bt_pkg/gamepad_bt.py -> /home/bobby/nexon_ws/build/gamepad_bt_pkg/build/lib/gamepad_bt_pkg
+copying gamepad_bt_pkg/__init__.py -> /home/bobby/nexon_ws/build/gamepad_bt_pkg/build/lib/gamepad_bt_pkg
+running install
+running install_lib
+creating /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad_bt_pkg
+copying /home/bobby/nexon_ws/build/gamepad_bt_pkg/build/lib/gamepad_bt_pkg/gamepad_bt.py -> /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad_bt_pkg
+copying /home/bobby/nexon_ws/build/gamepad_bt_pkg/build/lib/gamepad_bt_pkg/__init__.py -> /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad_bt_pkg
+byte-compiling /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad_bt_pkg/gamepad_bt.py to gamepad_bt.cpython-310.pyc
+byte-compiling /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad_bt_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/gamepad_bt_pkg -> /home/bobby/nexon_ws/install/gamepad_bt_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg
+running install_egg_info
+Copying ../../build/gamepad_bt_pkg/gamepad_bt_pkg.egg-info to /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad_bt_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gamepad_bt script to /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/gamepad_bt_pkg
+writing list of installed files to '/home/bobby/nexon_ws/build/gamepad_bt_pkg/install.log'

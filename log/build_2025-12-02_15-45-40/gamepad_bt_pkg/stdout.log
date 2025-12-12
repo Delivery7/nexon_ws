@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing gamepad_bt_pkg.egg-info/PKG-INFO
+writing dependency_links to gamepad_bt_pkg.egg-info/dependency_links.txt
+writing entry points to gamepad_bt_pkg.egg-info/entry_points.txt
+writing requirements to gamepad_bt_pkg.egg-info/requires.txt
+writing top-level names to gamepad_bt_pkg.egg-info/top_level.txt
+reading manifest file 'gamepad_bt_pkg.egg-info/SOURCES.txt'
+writing manifest file 'gamepad_bt_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad-bt-pkg.egg-link (link to .)
+Installing gamepad_bt script to /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/gamepad_bt_pkg
+
+Installed /home/bobby/nexon_ws/build/gamepad_bt_pkg
+running symlink_data
+symbolically linking /home/bobby/nexon_ws/build/gamepad_bt_pkg/resource/gamepad_bt_pkg -> /home/bobby/nexon_ws/install/gamepad_bt_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/bobby/nexon_ws/build/gamepad_bt_pkg/package.xml -> /home/bobby/nexon_ws/install/gamepad_bt_pkg/share/gamepad_bt_pkg

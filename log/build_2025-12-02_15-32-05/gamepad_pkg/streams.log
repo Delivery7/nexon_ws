@@ -1,0 +1,24 @@
+[1.632s] Invoking command in '/home/bobby/nexon_ws/build/gamepad_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_pkg/build --no-deps symlink_data
+[1.965s] running develop
+[2.221s] running egg_info
+[2.221s] creating gamepad_pkg.egg-info
+[2.226s] writing gamepad_pkg.egg-info/PKG-INFO
+[2.226s] writing dependency_links to gamepad_pkg.egg-info/dependency_links.txt
+[2.227s] writing entry points to gamepad_pkg.egg-info/entry_points.txt
+[2.227s] writing requirements to gamepad_pkg.egg-info/requires.txt
+[2.227s] writing top-level names to gamepad_pkg.egg-info/top_level.txt
+[2.227s] writing manifest file 'gamepad_pkg.egg-info/SOURCES.txt'
+[2.229s] reading manifest file 'gamepad_pkg.egg-info/SOURCES.txt'
+[2.230s] writing manifest file 'gamepad_pkg.egg-info/SOURCES.txt'
+[2.237s] running build_ext
+[2.237s] Creating /home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages/gamepad-pkg.egg-link (link to .)
+[2.240s] Installing gamepad_testing script to /home/bobby/nexon_ws/install/gamepad_pkg/lib/gamepad_pkg
+[2.240s] 
+[2.241s] Installed /home/bobby/nexon_ws/build/gamepad_pkg
+[2.241s] running symlink_data
+[2.241s] creating /home/bobby/nexon_ws/install/gamepad_pkg/share/ament_index
+[2.241s] creating /home/bobby/nexon_ws/install/gamepad_pkg/share/ament_index/resource_index
+[2.241s] creating /home/bobby/nexon_ws/install/gamepad_pkg/share/ament_index/resource_index/packages
+[2.241s] symbolically linking /home/bobby/nexon_ws/build/gamepad_pkg/resource/gamepad_pkg -> /home/bobby/nexon_ws/install/gamepad_pkg/share/ament_index/resource_index/packages
+[2.241s] symbolically linking /home/bobby/nexon_ws/build/gamepad_pkg/package.xml -> /home/bobby/nexon_ws/install/gamepad_pkg/share/gamepad_pkg
+[2.312s] Invoked command in '/home/bobby/nexon_ws/build/gamepad_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_pkg/build --no-deps symlink_data

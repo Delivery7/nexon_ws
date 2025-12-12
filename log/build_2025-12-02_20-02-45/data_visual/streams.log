@@ -1,0 +1,32 @@
+[1.399s] Invoking command in '/home/bobby/nexon_ws/build/data_visual': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build
+[1.750s] running develop
+[2.012s] Removing /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data-visual.egg-link (link to .)
+[2.063s] Invoked command in '/home/bobby/nexon_ws/build/data_visual' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build
+[2.064s] Invoking command in '/home/bobby/nexon_ws/src/nexon/data_visual': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/data_visual build --build-base /home/bobby/nexon_ws/build/data_visual/build install --record /home/bobby/nexon_ws/build/data_visual/install.log --single-version-externally-managed install_data --force
+[2.409s] running egg_info
+[2.411s] writing ../../../build/data_visual/data_visual.egg-info/PKG-INFO
+[2.411s] writing dependency_links to ../../../build/data_visual/data_visual.egg-info/dependency_links.txt
+[2.412s] writing entry points to ../../../build/data_visual/data_visual.egg-info/entry_points.txt
+[2.412s] writing requirements to ../../../build/data_visual/data_visual.egg-info/requires.txt
+[2.412s] writing top-level names to ../../../build/data_visual/data_visual.egg-info/top_level.txt
+[2.413s] reading manifest file '../../../build/data_visual/data_visual.egg-info/SOURCES.txt'
+[2.415s] adding license file 'LICENSE'
+[2.416s] writing manifest file '../../../build/data_visual/data_visual.egg-info/SOURCES.txt'
+[2.416s] running build
+[2.416s] running build_py
+[2.416s] running install
+[2.418s] running install_lib
+[2.418s] creating /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual
+[2.418s] copying /home/bobby/nexon_ws/build/data_visual/build/lib/data_visual/data_visual_node.py -> /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual
+[2.418s] copying /home/bobby/nexon_ws/build/data_visual/build/lib/data_visual/__init__.py -> /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual
+[2.419s] byte-compiling /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual/data_visual_node.py to data_visual_node.cpython-310.pyc
+[2.420s] byte-compiling /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual/__init__.py to __init__.cpython-310.pyc
+[2.420s] running install_data
+[2.420s] copying resource/data_visual -> /home/bobby/nexon_ws/install/data_visual/share/ament_index/resource_index/packages
+[2.421s] copying package.xml -> /home/bobby/nexon_ws/install/data_visual/share/data_visual
+[2.422s] running install_egg_info
+[2.425s] Copying ../../../build/data_visual/data_visual.egg-info to /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data_visual-0.0.0-py3.10.egg-info
+[2.427s] running install_scripts
+[2.466s] Installing data_visual_node script to /home/bobby/nexon_ws/install/data_visual/lib/data_visual
+[2.467s] writing list of installed files to '/home/bobby/nexon_ws/build/data_visual/install.log'
+[2.519s] Invoked command in '/home/bobby/nexon_ws/src/nexon/data_visual' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/data_visual build --build-base /home/bobby/nexon_ws/build/data_visual/build install --record /home/bobby/nexon_ws/build/data_visual/install.log --single-version-externally-managed install_data --force

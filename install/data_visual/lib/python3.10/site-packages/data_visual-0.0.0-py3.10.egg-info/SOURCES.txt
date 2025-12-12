@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../../build/data_visual/data_visual.egg-info/PKG-INFO
+../../../build/data_visual/data_visual.egg-info/SOURCES.txt
+../../../build/data_visual/data_visual.egg-info/dependency_links.txt
+../../../build/data_visual/data_visual.egg-info/entry_points.txt
+../../../build/data_visual/data_visual.egg-info/requires.txt
+../../../build/data_visual/data_visual.egg-info/top_level.txt
+../../../build/data_visual/data_visual.egg-info/zip-safe
+data_visual/__init__.py
+data_visual/data_visual_node.py
+resource/data_visual
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,16 @@
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/config/ekf.yaml
+/home/bobby/nexon_ws/install/nexon_base/share/ament_index/resource_index/package_run_dependencies/nexon_base
+/home/bobby/nexon_ws/install/nexon_base/share/ament_index/resource_index/parent_prefix_path/nexon_base
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/environment/ament_prefix_path.sh
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/environment/ament_prefix_path.dsv
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/environment/path.sh
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/environment/path.dsv
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/local_setup.bash
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/local_setup.sh
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/local_setup.zsh
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/local_setup.dsv
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.dsv
+/home/bobby/nexon_ws/install/nexon_base/share/ament_index/resource_index/packages/nexon_base
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/cmake/nexon_baseConfig.cmake
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/cmake/nexon_baseConfig-version.cmake
+/home/bobby/nexon_ws/install/nexon_base/share/nexon_base/package.xml

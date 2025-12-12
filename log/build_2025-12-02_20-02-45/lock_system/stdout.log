@@ -1,0 +1,28 @@
+running develop
+Removing /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock-system.egg-link (link to .)
+running egg_info
+writing ../../../build/lock_system/lock_system.egg-info/PKG-INFO
+writing dependency_links to ../../../build/lock_system/lock_system.egg-info/dependency_links.txt
+writing entry points to ../../../build/lock_system/lock_system.egg-info/entry_points.txt
+writing requirements to ../../../build/lock_system/lock_system.egg-info/requires.txt
+writing top-level names to ../../../build/lock_system/lock_system.egg-info/top_level.txt
+reading manifest file '../../../build/lock_system/lock_system.egg-info/SOURCES.txt'
+writing manifest file '../../../build/lock_system/lock_system.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lock_system/lock_system_master.py -> /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system
+running install
+running install_lib
+creating /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system
+copying /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system/lock_system_master.py -> /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system
+copying /home/bobby/nexon_ws/build/lock_system/build/lib/lock_system/__init__.py -> /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system
+byte-compiling /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system/lock_system_master.py to lock_system_master.cpython-310.pyc
+byte-compiling /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/lock_system -> /home/bobby/nexon_ws/install/lock_system/share/ament_index/resource_index/packages
+copying package.xml -> /home/bobby/nexon_ws/install/lock_system/share/lock_system
+running install_egg_info
+Copying ../../../build/lock_system/lock_system.egg-info to /home/bobby/nexon_ws/install/lock_system/lib/python3.10/site-packages/lock_system-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lock_system_master script to /home/bobby/nexon_ws/install/lock_system/lib/lock_system
+writing list of installed files to '/home/bobby/nexon_ws/build/lock_system/install.log'

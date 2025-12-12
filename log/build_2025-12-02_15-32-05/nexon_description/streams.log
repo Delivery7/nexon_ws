@@ -1,0 +1,58 @@
+[0.016s] Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake /home/bobby/nexon_ws/src/nexon/nexon_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bobby/nexon_ws/install/nexon_description
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.717s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.998s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.513s] -- Configuring done
+[1.519s] -- Generating done
+[1.526s] -- Build files have been written to: /home/bobby/nexon_ws/build/nexon_description
+[1.546s] Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake /home/bobby/nexon_ws/src/nexon/nexon_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bobby/nexon_ws/install/nexon_description
+[1.548s] Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_description -- -j4 -l4
+[1.665s] Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_description -- -j4 -l4
+[1.666s] Invoking command in '/home/bobby/nexon_ws/build/nexon_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_description
+[1.719s] -- Install configuration: ""
+[1.730s] -- Execute custom install script
+[1.735s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/launch/description.launch.py
+[1.765s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/2wd_properties.urdf.xacro
+[1.791s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/4wd_properties.urdf.xacro
+[1.812s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/controllers/diff_drive.urdf.xacro
+[1.840s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/mech/base.urdf.xacro
+[1.854s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/mech/caster_wheel.urdf.xacro
+[1.878s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/mech/wheel.urdf.xacro
+[1.898s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/robots/2wd.urdf.xacro
+[1.922s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/robots/4wd.urdf.xacro
+[1.944s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/robots/turtlebot.urdf.xacro
+[1.970s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/sensors/camera.urdf.xacro
+[1.991s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/sensors/depth_sensor.urdf.xacro
+[2.009s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/sensors/generic_laser.urdf.xacro
+[2.039s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/sensors/imu.urdf.xacro
+[2.063s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/urdf/sensors/laser.urdf.xacro
+[2.082s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/rviz/description.rviz
+[2.102s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/ament_index/resource_index/package_run_dependencies/nexon_description
+[2.120s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/ament_index/resource_index/parent_prefix_path/nexon_description
+[2.142s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/environment/ament_prefix_path.sh
+[2.159s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/environment/ament_prefix_path.dsv
+[2.176s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/environment/path.sh
+[2.210s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/environment/path.dsv
+[2.280s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/local_setup.bash
+[2.310s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/local_setup.sh
+[2.356s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/local_setup.zsh
+[2.394s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/local_setup.dsv
+[2.439s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.dsv
+[2.469s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/ament_index/resource_index/packages/nexon_description
+[2.528s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/cmake/nexon_descriptionConfig.cmake
+[2.547s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/cmake/nexon_descriptionConfig-version.cmake
+[2.625s] -- Symlinking: /home/bobby/nexon_ws/install/nexon_description/share/nexon_description/package.xml
+[2.783s] Invoked command in '/home/bobby/nexon_ws/build/nexon_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_description

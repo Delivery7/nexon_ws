@@ -1,0 +1,4 @@
+Invoking command in '/home/bobby/nexon_ws/build/nexon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_base -- -j4 -l4
+Invoked command in '/home/bobby/nexon_ws/build/nexon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/nexon_base -- -j4 -l4
+Invoking command in '/home/bobby/nexon_ws/build/nexon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_base
+Invoked command in '/home/bobby/nexon_ws/build/nexon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bobby/nexon_ws/build/nexon_base

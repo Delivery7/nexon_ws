@@ -1,0 +1,17 @@
+[1.282s] Invoking command in '/home/bobby/nexon_ws/build/gamepad_bt_pkg': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_bt_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_bt_pkg/build --no-deps symlink_data
+[1.659s] running develop
+[1.927s] running egg_info
+[1.927s] writing gamepad_bt_pkg.egg-info/PKG-INFO
+[1.929s] writing dependency_links to gamepad_bt_pkg.egg-info/dependency_links.txt
+[1.930s] writing entry points to gamepad_bt_pkg.egg-info/entry_points.txt
+[1.931s] writing requirements to gamepad_bt_pkg.egg-info/requires.txt
+[1.931s] writing top-level names to gamepad_bt_pkg.egg-info/top_level.txt
+[1.940s] reading manifest file 'gamepad_bt_pkg.egg-info/SOURCES.txt'
+[1.940s] writing manifest file 'gamepad_bt_pkg.egg-info/SOURCES.txt'
+[1.944s] running build_ext
+[1.945s] Creating /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages/gamepad-bt-pkg.egg-link (link to .)
+[1.947s] Installing gamepad_bt script to /home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/gamepad_bt_pkg
+[1.948s] 
+[1.948s] Installed /home/bobby/nexon_ws/build/gamepad_bt_pkg
+[1.948s] running symlink_data
+[2.212s] Invoked command in '/home/bobby/nexon_ws/build/gamepad_bt_pkg' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/gamepad_bt_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/gamepad_bt_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/gamepad_bt_pkg/build --no-deps symlink_data

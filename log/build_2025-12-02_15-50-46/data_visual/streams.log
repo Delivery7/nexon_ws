@@ -1,0 +1,17 @@
+[1.283s] Invoking command in '/home/bobby/nexon_ws/build/data_visual': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build --no-deps symlink_data
+[1.642s] running develop
+[1.879s] running egg_info
+[1.880s] writing data_visual.egg-info/PKG-INFO
+[1.880s] writing dependency_links to data_visual.egg-info/dependency_links.txt
+[1.881s] writing entry points to data_visual.egg-info/entry_points.txt
+[1.881s] writing requirements to data_visual.egg-info/requires.txt
+[1.882s] writing top-level names to data_visual.egg-info/top_level.txt
+[1.882s] reading manifest file 'data_visual.egg-info/SOURCES.txt'
+[1.882s] writing manifest file 'data_visual.egg-info/SOURCES.txt'
+[1.885s] running build_ext
+[1.885s] Creating /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data-visual.egg-link (link to .)
+[1.891s] Installing data_visual_node script to /home/bobby/nexon_ws/install/data_visual/lib/data_visual
+[1.891s] 
+[1.892s] Installed /home/bobby/nexon_ws/build/data_visual
+[1.892s] running symlink_data
+[1.928s] Invoked command in '/home/bobby/nexon_ws/build/data_visual' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build --no-deps symlink_data

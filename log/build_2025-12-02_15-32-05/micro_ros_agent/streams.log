@@ -1,0 +1,82 @@
+[0.021s] Invoking command in '/home/bobby/nexon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake /home/bobby/nexon_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bobby/nexon_ws/install/micro_ros_agent
+[0.621s] [33mCMake Warning:
+[0.622s]   Manually-specified variables were not used by the project:
+[0.622s] 
+[0.622s]     AMENT_CMAKE_SYMLINK_INSTALL
+[0.622s] 
+[0.622s] [0m
+[0.622s] -- The C compiler identification is GNU 11.4.0
+[0.622s] -- Detecting C compiler ABI info
+[0.622s] -- Detecting C compiler ABI info - done
+[0.622s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.622s] -- Detecting C compile features
+[0.622s] -- Detecting C compile features - done
+[0.622s] -- The CXX compiler identification is GNU 11.4.0
+[0.622s] -- Detecting CXX compiler ABI info
+[0.622s] -- Detecting CXX compiler ABI info - done
+[0.622s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.622s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.622s] -- Configuring done
+[0.622s] -- Generating done
+[0.622s] -- Build files have been written to: /home/bobby/nexon_ws/build/micro_ros_agent
+[0.623s] Invoked command in '/home/bobby/nexon_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake /home/bobby/nexon_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bobby/nexon_ws/install/micro_ros_agent
+[0.625s] Invoking command in '/home/bobby/nexon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bobby/nexon_ws/install/imu_kalman_pkg:/home/bobby/nexon_ws/install/gamepad_pkg:/home/bobby/nexon_ws/install/gamepad_bt_pkg:/home/bobby/nexon_ws/install/data_visual:/opt/ros/humble /usr/bin/cmake --build /home/bobby/nexon_ws/build/micro_ros_agent -- -j4 -l4
+[0.949s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.957s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.957s] Cloning into 'xrceagent'...
+[5.119s] HEAD is now at 57d0862 Release v2.4.2
+[5.276s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[5.310s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[5.366s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[5.397s] loading initial cache file /home/bobby/nexon_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[5.559s] -- The C compiler identification is GNU 11.4.0
+[5.581s] -- Detecting C compiler ABI info
+[5.771s] -- Detecting C compiler ABI info - done
+[5.800s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.800s] -- Detecting C compile features
+[5.800s] -- Detecting C compile features - done
+[5.961s] -- The CXX compiler identification is GNU 11.4.0
+[5.976s] -- Detecting CXX compiler ABI info
+[6.154s] -- Detecting CXX compiler ABI info - done
+[6.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.174s] -- Detecting CXX compile features
+[6.177s] -- Detecting CXX compile features - done
+[6.181s] -- Looking for pthread.h
+[6.323s] -- Looking for pthread.h - found
+[6.326s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.467s] -- Found Threads: TRUE  
+[6.482s] -- Configuring done
+[6.486s] -- Generating done
+[6.487s] -- Build files have been written to: /home/bobby/nexon_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[6.525s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[6.572s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[6.659s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[6.714s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[6.754s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[6.781s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[6.791s] loading initial cache file /home/bobby/nexon_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[6.801s] -- Setting build type to 'Release' as none was specified.
+[6.843s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[6.843s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[6.843s]   does not match the name of the calling package (TinyXML2).  This can lead
+[6.843s]   to problems in calling code that expects `find_package` result variables
+[6.843s]   (e.g., `_FOUND`) to follow a certain pattern.
+[6.843s] Call Stack (most recent call first):
+[6.843s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[6.843s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[6.843s]   CMakeLists.txt:153 (find_package)
+[6.844s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.844s] [0m
+[6.844s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[6.939s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.955s] -- Configuring done
+[7.003s] -- Generating done
+[7.010s] -- Build files have been written to: /home/bobby/nexon_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[7.039s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[7.131s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[7.141s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[7.150s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[7.163s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[16.825s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m

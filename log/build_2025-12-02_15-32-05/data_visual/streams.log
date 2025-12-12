@@ -1,0 +1,24 @@
+[1.671s] Invoking command in '/home/bobby/nexon_ws/build/data_visual': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build --no-deps symlink_data
+[2.062s] running develop
+[2.307s] running egg_info
+[2.309s] creating data_visual.egg-info
+[2.309s] writing data_visual.egg-info/PKG-INFO
+[2.311s] writing dependency_links to data_visual.egg-info/dependency_links.txt
+[2.311s] writing entry points to data_visual.egg-info/entry_points.txt
+[2.311s] writing requirements to data_visual.egg-info/requires.txt
+[2.311s] writing top-level names to data_visual.egg-info/top_level.txt
+[2.311s] writing manifest file 'data_visual.egg-info/SOURCES.txt'
+[2.313s] reading manifest file 'data_visual.egg-info/SOURCES.txt'
+[2.314s] writing manifest file 'data_visual.egg-info/SOURCES.txt'
+[2.314s] running build_ext
+[2.314s] Creating /home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages/data-visual.egg-link (link to .)
+[2.315s] Installing data_visual_node script to /home/bobby/nexon_ws/install/data_visual/lib/data_visual
+[2.315s] 
+[2.315s] Installed /home/bobby/nexon_ws/build/data_visual
+[2.315s] running symlink_data
+[2.315s] creating /home/bobby/nexon_ws/install/data_visual/share/ament_index
+[2.315s] creating /home/bobby/nexon_ws/install/data_visual/share/ament_index/resource_index
+[2.315s] creating /home/bobby/nexon_ws/install/data_visual/share/ament_index/resource_index/packages
+[2.315s] symbolically linking /home/bobby/nexon_ws/build/data_visual/resource/data_visual -> /home/bobby/nexon_ws/install/data_visual/share/ament_index/resource_index/packages
+[2.316s] symbolically linking /home/bobby/nexon_ws/build/data_visual/package.xml -> /home/bobby/nexon_ws/install/data_visual/share/data_visual
+[2.944s] Invoked command in '/home/bobby/nexon_ws/build/data_visual' returned '0': PYTHONPATH=/home/bobby/nexon_ws/build/data_visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bobby/nexon_ws/install/data_visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bobby/nexon_ws/build/data_visual/build --no-deps symlink_data
